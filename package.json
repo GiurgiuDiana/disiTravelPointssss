@@ -1,0 +1,54 @@
+{
+  "name": "myportfoliosite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-react-dropdowns": "^3.12.0",
+    "ajv": "^6.9.1",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.13.0",
+    "react-mdl": "^1.11.0",
+    "react-native": "^0.61.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^3.4.0",
+    "react-star-ratings": "^2.3.0",
+    "react-switch-lang": "^1.0.2",
+    "react-widgets": "^4.5.0",
+    "react-xml-parser": "^1.1.6",
+    "react-xml-viewer": "^1.0.3",
+    "react-youtube": "^7.9.0",
+    "redux": "^4.0.5",
+    "video-react": "^0.14.1",
+    "xml-reader": "^2.4.3",
+    "xmldom": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.19.2",
+    "html": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "reactstrap": "^8.4.1",
+    "xml2js": "^0.4.23"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

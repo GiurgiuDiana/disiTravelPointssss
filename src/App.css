@@ -1,0 +1,220 @@
+.header-color {
+  background:  #f6cd61;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4a4e4d , #0e9aa7 , #3da4ab , #f6cd61 , #fe8a71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2e003e ,#3d2352 ,#0e9aa7 , #3da4ab , #f6cd61 , #fe8a71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0e9aa7 , #3da4ab , #f6cd61 , #fe8a71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0e9aa7 , #3da4ab , #f6cd61 , #fe8a71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.landing-grid footer{
+  background: transparent;
+
+
+}
+
+footer{
+  background:transparent;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Switcher {
+  text-align: right;
+}
+
+.Switcher-logo {
+  height: 40vmin;
+}
+
+.Switcher-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Switcher-link {
+  color: #09d3ac;
+}
+
+.banner {
+  position: absolute;
+  left: 50%;
+  display: block;
+  margin: 100px -200px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid #8a1;
+  font: normal 30px/60px 'Rye';
+  text-align: center;
+  color: #451;
+  background: #3D7EAA;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+  0 6px 10px rgba(0,0,0,.15);
+}
+
+.banner::before,
+.banner::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -70px;
+  top: 24px;
+  display: block;
+  width: 40px;
+  height: 0px;
+  border: 30px solid #9b2;
+  border-right: 20px solid #791;
+  border-bottom-color: #94b81e;
+  border-left-color: transparent;
+  transform: rotate(-5deg);
+}
+
+.banner::after {
+  left: auto;
+  right: -70px;
+  border-left: 20px solid #791;
+  border-right: 30px solid transparent;
+  transform: rotate(5deg);
+}
+.projects-grid {
+  display: flex;
+}
+p1{
+  color:white;
+}
+/* Acasa Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.language-grid {
+  text-align: center;
+  justify-content: center;
+
+
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+.landing-grid footer{
+  background: transparent;
+}
+.contact-body footer{
+  background:transparent;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-grid h2 {
+  /*font-family: 'Anton', sans-serif;*/
+}
+
+.contact-grid p {
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.home-img {
+  height: 600px;
+  padding-top: 10em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+

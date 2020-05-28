@@ -1,0 +1,1 @@
+insert into location(name) values("borabora");
